@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html>
+ <!-- Configuración, parte no visible -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vale Crochet</title>
+
+   <link rel="icon" type="image/png" href="img/Logo.png">
+
+    <!-- Iconos Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+       <!-- Boostrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Propios css -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!-- Boostrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <style>
+
+
+    </style>
+
+  </head> <!-- fin Configuración, parte no visible -->
+  <!-- contenido principal y visible de una página web -->
+
+
+  <!-- contenido principal y visible de una página web -->
+<body>
+
+  <header>
+    
+
+  </header>
+
+<!-- menu de navegación -->
+
+<nav class="navbar navbar-expand-lg navbar-light menu">
+  <div class="container">
+
+    <a class="navbar-brand logo" href="index.html">
+        <img src="img/logo.png" alt="Logo">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto">
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="productos.html">PRODUCTOS</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">CONTACTO</a>
+        </li>
+
+        </ul>
+      
+       <form class="d-flex align-items-center">
+        <div class="input-group buscador">
+
+           <input class="form-control" type="search" placeholder="Buscar">
+
+           <button class="btn boton-buscar">
+            <i class="fas fa-search"></i>
+           </button>
+
+        </div>
+
+      </form>
+       
+    </div>
+
+  </div>
+</nav> <!-- fin menu de navegacion -->
+
+
+<!--inicio del carrusel-->
+
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/carrusel1.png" class="d-block w-100" alt="Amigurumi1">
+    </div>
+    <div class="carousel-item">
+      <img src="img/carrusel2.png" class="d-block w-100" alt="Amigurumi2">
+    </div>
+    <div class="carousel-item">
+      <img src="img/carrusel3.png" class="d-block w-100" alt="Amigurumi3">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--fin del carrusel-->
+
+<!--Inicio de las tarjetas-->
+
+<br>
+<br>
+<section class="container productos-container my-5">
+
+  <div class="row justify-content-center g-4">
+
+  <!-- Tarjeta 1 -->   
+ <div class= "col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+
+   <div class="card card-producto h-100">
+    <img src="img/osito.png" class="card-img-top" alt="Amigurumi de osito">
+
+  <div class="card-body">
+    <h5 class="card-title">Amigurumi de Osito</h5>
+
+    <p class="card-text">
+      Un osito lleno de ternura.
+    </p>
+
+    <p>S/.40</p>
+
+    <button 
+       class="btn btn-warning btn-comprar"
+       data-nombre="Amigurumi de Osito"
+       data-precio="40"
+       data-imagen="img/osito.png"
+       data-tamano="15 cm">
+     Agregar
+   </button>
+  </div>
+</div>
+</div>
+
+ <!-- Tarjeta 2 --> 
+ <div class= "col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+  <div class="card card-producto h-100">
+   <img src="img/abejita.png" class="card-img-top" alt="abejita">
+
+  <div class="card-body">
+    <h5 class="card-title">Amigurumi de Abejita</h5>
+
+    <p class="card-text">
+      Una abejita dulce y colorida.
+    </p>
+    <p>S/.60</p>
+
+    <button 
+       class="btn btn-warning btn-comprar"
+       data-nombre="Amigurumi de Abejita"
+       data-precio="60"
+       data-imagen="img/abejita.png"
+       data-tamano="18 cm">
+
+     Agregar
+   </button>
+  </div>
+</div>
+</div>
+
+<!-- Tarjeta 3 --> 
+<div class= "col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+ <div class="card card-producto h-100">
+  <img src="img/cinamorol.png" class="card-img-top" alt="cinamorol">
+
+  <div class="card-body">
+    <h5 class="card-title">Amigurumi de Cinnamorol</h5>
+
+    <p class="card-text">
+      Cinnamoroll tejido con delicadeza.
+    </p>
+    <p>S/.30</p>
+    <button 
+       class="btn btn-warning btn-comprar"
+       data-nombre="Amigurumi de Cinnamorol"
+       data-precio="30"
+       data-imagen="img/cinamorol.png"
+       data-tamano="13 cm">
+     Agregar
+   </button>
+  </div>
+</div>
+</div>
+
+<!-- Tarjeta 4 -->
+<div class= "col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+ <div class="card card-producto h-100">
+  <img src="img/conejito.png" class="card-img-top" alt="conejito">
+
+  <div class="card-body">
+    <h5 class="card-title">Amigurumi de Conejita</h5>
+
+    <p class="card-text">
+      Una conejita suave y encantadora.
+    </p>
+    <p>S/.50</p>
+
+    <button 
+       class="btn btn-warning btn-comprar"
+       data-nombre="Amigurumi de Conejita"
+       data-precio="50"
+       data-imagen="img/conejito.png"
+       data-tamano="20 cm">
+     Agregar
+   </button>
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="container productos-container my-5">
+
+  <div class="row justify-content-center g-4">
+
+<!-- Tarjeta 5 -->
+<div class= "col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+ <div class="card card-producto h-100">
+  <img src="img/pollito.png" class="card-img-top" alt="pollito">
+
+  <div class="card-body">
+    <h5 class="card-title">Amigurumi de Pollito</h5>
+
+    <p class="card-text">
+      Un pollito pequeño y adorable.
+    </p>
+    <p>S/.50</p>
+    <button  
+       class="btn btn-warning btn-comprar"
+       data-nombre="Amigurumi de Pollito"
+       data-precio="50"
+       data-imagen="img/pollito.png"
+       data-tamano="18 cm">
+     Agregar
+   </button>
+  </div>
+</div>
+</div>
+
+<!-- Tarjeta 6 -->
+<div class= "col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+ <div class="card card-producto h-100">
+  <img src="img/perrito.png" class="card-img-top" alt="perrito">
+
+  <div class="card-body">
+    <h5 class="card-title">Amigurumi de Perrito</h5>
+
+    <p class="card-text">
+      Un perrito tejido con amor.
+    </p>
+    <p>S/.50</p>
+    <button
+       class="btn btn-warning btn-comprar"
+       data-nombre="Amigurumi de Perrito"
+       data-precio="50"
+       data-imagen="img/perrito.png"
+       data-tamano="15 cm">
+     Agregar
+   </button>
+  </div>
+</div>
+</div>
+
+<!-- Tarjeta 7 -->
+<div class= "col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+ <div class="card card-producto h-100">
+  <img src="img/mymelody.png" class="card-img-top" alt="mymelody">
+
+  <div class="card-body">
+    <h5 class="card-title">Amigurumi de My Melody</h5>
+
+    <p class="card-text">
+      My Melody hecha con mucho cariño.
+    </p>
+    <p>S/.80</p>
+
+    <button
+       class="btn btn-warning btn-comprar"
+       data-nombre="Amigurumi de My Melody"
+       data-precio="80"
+       data-imagen="img/mymelody.png"
+       data-tamano="22 cm">
+     Agregar
+   </button>
+  </div>
+</div>
+</div>
+
+<!-- Tarjeta 8 -->
+<div class= "col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+ <div class="card card-producto h-100">
+  <img src="img/snoopi.png" class="card-img-top" alt="snoopi">
+
+  <div class="card-body">
+    <h5 class="card-title">Amigurumi de Snoopy</h5>
+
+    <p class="card-text">
+      Tu personaje favorito en crochet.
+    </p>
+<p>S/.70</p>
+    <button
+       class="btn btn-warning btn-comprar"
+       data-nombre="Amigurumi de Snoopy"
+       data-precio="70"
+       data-imagen="img/snoopi.png"
+       data-tamano="18 cm">
+     Agregar
+   </button>
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="container productos-container my-5">
+
+  <div class="row justify-content-center g-4">
+
+<!-- Tarjeta 9 -->
+<div class= "col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+ <div class="card card-producto h-100">
+  <img src="img/kitillavero.png" class="card-img-top" alt="kitillavero">
+
+  <div class="card-body">
+    <h5 class="card-title">Llavero de Hello Kitty</h5>
+
+    <p class="card-text">
+      Un detalle tierno para tus accesorios.
+    </p>
+<p>S/.25</p>
+    <button
+       class="btn btn-warning btn-comprar"
+       data-nombre="Llavero de Hello Kitty"
+       data-precio="25"
+       data-imagen="img/kitillavero.png"
+       data-tamano="9 cm">
+     Agregar
+   </button>
+  </div>
+</div>
+</div>
+
+<!-- Tarjeta 10 -->
+<div class= "col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+ <div class="card card-producto h-100">
+  <img src="img/snoopillavero.png" class="card-img-top" alt="snoopillavero">
+
+  <div class="card-body">
+    <h5 class="card-title">Llavero de Snoopy</h5>
+
+    <p class="card-text">
+      Lleva a Snoopy contigo.
+    </p>
+    <p>S/.25</p>
+    <button
+       class="btn btn-warning btn-comprar"
+       data-nombre="Llavero de Snoopy"
+       data-precio="25"
+       data-imagen="img/snoopillavero.png"
+       data-tamano="9 cm">
+     Agregar
+   </button>
+  </div>
+</div>
+</div>
+
+<!-- Tarjeta 11 -->
+<div class= "col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+ <div class="card card-producto h-100">
+  <img src="img/llaverofresita.png" class="card-img-top" alt="llaverofresita">
+
+  <div class="card-body">
+    <h5 class="card-title">Llavero de Fresita</h5>
+
+    <p class="card-text">
+      Un toque dulce para tu día.
+    </p>
+     <p>S/.25</p>
+    <button
+       class="btn btn-warning btn-comprar"
+       data-nombre="Llavero de Fresita"
+       data-precio="25"
+       data-imagen="img/llaverofresita.png"
+       data-tamano="9 cm">
+     Agregar
+   </button>
+  </div>
+</div>
+</div>
+
+<!-- Tarjeta 12 -->
+<div class= "col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+ <div class="card card-producto h-100">
+  <img src="img/llaverocereza.png" class="card-img-top" alt="llaverocereza">
+
+  <div class="card-body">
+    <h5 class="card-title">Llavero de Cereza</h5>
+
+    <p class="card-text">
+      Un accesorio pequeño y encantador.
+    </p>
+   <p>S/.25</p>
+    <button
+       class="btn btn-warning btn-comprar"
+       data-nombre="Llavero de Cereza"
+       data-precio="25"
+       data-imagen="img/llaverocereza.png"
+       data-tamano="9 cm">
+     Agregar
+   </button>
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="container productos-container my-5">
+
+  <div class="row justify-content-center g-4">
+
+<!-- Tarjeta 13 -->
+<div class= "col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+ <div class="card card-producto h-100">
+  <img src="img/llaverogato.png" class="card-img-top" alt="llaverogato">
+
+  <div class="card-body">
+    <h5 class="card-title">Llavero de gatito</h5>
+
+    <p class="card-text">
+      Un gatito tejido para acompañarte.
+    </p>
+<p>S/.25</p>
+    <button
+       class="btn btn-warning btn-comprar"
+       data-nombre="Llavero de Gatito"
+       data-precio="25"
+       data-imagen="img/llaverogato.png"
+       data-tamano="9 cm">
+     Agregar
+   </button>
+  </div>
+</div>
+</div>
+
+<!-- Tarjeta 14 -->
+<div class= "col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+ <div class="card card-producto h-100">
+  <img src="img/ramo.png" class="card-img-top" alt="ramo">
+
+  <div class="card-body">
+    <h5 class="card-title">Ramo tejido de Tulipanes</h5>
+
+    <p class="card-text">
+      Flores que nunca se marchitan.
+    </p>
+    <p>S/.120</p>
+    <button
+       class="btn btn-warning btn-comprar"
+       data-nombre="Ramo tejido de Tulipanes"
+       data-precio="120"
+       data-imagen="img/ramo.png"
+       data-tamano="30 cm">
+       Agregar
+    </button>
+  </div>
+</div>
+</div>
+
+<!-- Tarjeta 15 -->
+<div class= "col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+ <div class="card card-producto h-100">
+  <img src="img/flortejida.png" class="card-img-top" alt="flortejida">
+
+  <div class="card-body">
+    <h5 class="card-title">Girasol</h5>
+
+    <p class="card-text">
+      Diseñados a tu estilo.
+    </p>
+     <p>S/.55</p>
+    <button
+       class="btn btn-warning btn-comprar"
+       data-nombre="Girasol"
+       data-precio="55"
+       data-imagen="img/flortejida.png"
+       data-tamano="25 cm">
+     Agregar
+   </button>
+  </div>
+</div>
+</div>
+
+<!-- Tarjeta 16 -->
+<div class= "col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+ <div class="card card-producto h-100">
+  <img src="img/muñeca.png" class="card-img-top" alt="muñeca">
+
+  <div class="card-body">
+    <h5 class="card-title">Muñeca Personalizada</h5>
+
+    <p class="card-text">
+      Creada especialmente para ti.
+    </p>
+   <p>S/.75</p>
+    <button
+       class="btn btn-warning btn-comprar"
+       data-nombre="Muñeca Personalizada"
+       data-precio="75"
+       data-imagen="img/muñeca.png"
+       data-tamano="25 cm">
+     Agregar
+   </button>
+  </div>
+</div>
+</div>
+
+</section> <!--Fin de las tarjetas-->
+
+
+         <!--Carrito flotante-->
+         <a href="carrito.html" class="carrito-fijo">
+            <img src="img/carro de compras.png" class="carrito">
+
+            <span id="contadorCarrito">0</span>
+         </a>
+
+
+<!-- inicio css y div para el pied de pagina --> 
+<footer class="pie">
+
+  <div class="container">
+    <div class="row justify-content-center ms-lg-5">
+  
+  <div class="col-lg-4 col-md-6 col-sm-12">
+        <h3>SOBRE VALE CROCHET</h3>
+
+        <p><a href="nosotros.html" class="footer-enlace">Nuestra historia</a></p>
+        <p><a href="productos.html" class="footer-enlace">Productos hechos a mano</a></p>
+        <p><a href="https://wa.me/51933071109?text=Hola,%20me%20gustaría%20personalizar%20un%20amigurumi%20para%20un%20regalo." class="footer-enlace">Pedidos Personalizados</a></p>
+        <p><a href="nosotros.html" class="footer-enlace">Misión y Visión</a></p> 
+        
+
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+        <h3>INFORMACIÓN</h3>
+
+        <p><a href="index.html" class="footer-enlace">Productos destacados</a></p>
+        <p><a href="carrito.html" class="footer-enlace">Métodos de pago</a></p>
+        <p><a href="doc/Terminos y condiciones de Vale Crochet.pdf" target="_blank" class="footer-enlace">Términos y Condiciones</a></p>
+        <p><a href="contacto.html" class="footer-enlace">Contacto</a></p> 
+        
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+        <h3>REDES SOCIALES</h3>
+
+        <p>Instagram: Vale_crochet18</p>
+        <p>Facebook: Vale Crochet</p>
+   </div>
+
+   <div class="row mt-4">
+    <div class="col-12 text-center pie-final">
+    <br>
+        © 2026 Vale Crochet:
+        <a href="#">Todos los derechos recervados</a>
+        </div>
+        </div>
+    </div>
+
+</footer>  <!-- fin css y div para el pied de pagina -->
+
+<body>
+  
+  <script src="js/carrito.js"></script>
+
+</body>  <!-- fin contenido principal y visible de una página web -->
+</html>
